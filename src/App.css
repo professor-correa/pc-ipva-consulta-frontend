@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    font-family: Verdana, Arial, Helvetica;
+}
+
+.cd-container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cd-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+}
+
+.cd-title h1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.cd-close {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url('https://www.ipva.fazenda.sp.gov.br/ipvanet_consulta/Images/Graficos/fundo_preto3.gif');
+}
+
+.cd-close button {
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+fieldset {
+    border: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+form h3 {
+    padding: 6px 0;
+    font-size: 13px;
+}
+
+.label {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+}
+
+
+
